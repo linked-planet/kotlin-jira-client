@@ -1,0 +1,8 @@
+rootProject.name = 'kotlin-jira-wrapper'
+include 'kotlin-jira-wrapper-api'
+include 'kotlin-jira-wrapper-core'
+include 'kotlin-jira-wrapper-ktor'
+include 'kotlin-jira-wrapper-atlas'
+//include 'kotlin-jira-wrapper-jira'
+include 'kotlin-jira-wrapper-test-base'
+

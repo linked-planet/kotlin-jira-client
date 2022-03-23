@@ -1,0 +1,19 @@
+plugins {
+    id "org.jetbrains.kotlin.jvm" version "1.4.21" apply(false)
+}
+
+println "Running gradle version: $gradle.gradleVersion"
+
+allprojects {
+    ext.kotlin_version = "1.4.21"
+
+    group "com.linkedplanet"
+    version "1.0"
+
+    repositories {
+        mavenCentral()
+        maven { url "https://kotlin.bintray.com/kotlinx" }
+        maven { url "https://maven.atlassian.com/repository/public" }
+        maven { url "https://plugins.gradle.org/m2/"}
+    }
+}
