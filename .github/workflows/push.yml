@@ -17,4 +17,4 @@ jobs:
       - name: Build and Test library
         run: ./gradlew test install --info
       - name: Build and Test confluence library
-        run: mvn clean -f kotlin-insight-wrapper-atlas-test/pom.xml -B verify -Dbaseurl=http://localhost:1990
+        run: mvn clean -f kotlin-jira-wrapper-atlas-test/pom.xml -B verify -Dbaseurl=http://localhost:1990
