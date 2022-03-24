@@ -9,9 +9,9 @@ object JiraConfig {
     lateinit var httpClient: BaseHttpClient
 
 
-    fun init(
+    fun <T: BaseHttpClient> init(
         baseUrlIn: String,
-        httpClientIn: BaseHttpClient
+        httpClientIn: T
     ) {
         baseUrl = baseUrlIn
         httpClient = httpClientIn
