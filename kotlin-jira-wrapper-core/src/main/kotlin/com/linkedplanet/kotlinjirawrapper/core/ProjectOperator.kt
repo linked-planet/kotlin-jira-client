@@ -3,8 +3,8 @@ package com.linkedplanet.kotlinjirawrapper.core
 import arrow.core.Either
 import arrow.core.computations.either
 import com.google.gson.reflect.TypeToken
-import com.linkedplanet.kotlinjirawrapper.api.error.DomainError
-import com.linkedplanet.kotlinjirawrapper.api.http.JiraConfig
+import com.linkedplanet.kotlinhttpclient.error.DomainError
+import com.linkedplanet.kotlinjirawrapper.api.JiraConfig
 import com.linkedplanet.kotlinjirawrapper.api.interfaces.ProjectOperatorInterface
 import com.linkedplanet.kotlinjirawrapper.api.model.JiraProject
 

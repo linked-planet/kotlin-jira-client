@@ -128,25 +128,13 @@
             <version>2.10.9</version>
         </dependency>
         <dependency>
-            <groupId>com.linkedplanet</groupId>
-            <artifactId>kotlin-jira-wrapper-api</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.linkedplanet</groupId>
-            <artifactId>kotlin-jira-wrapper-core</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.linkedplanet</groupId>
+            <groupId>com.linked-planet</groupId>
             <artifactId>kotlin-jira-wrapper-test-base</artifactId>
-            <version>1.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.linkedplanet</groupId>
+            <groupId>com.linked-planet</groupId>
             <artifactId>kotlin-jira-wrapper-atlas</artifactId>
-            <version>1.0</version>
         </dependency>
         <!-- WIRED TEST RUNNER DEPENDENCIES -->
         <dependency>
@@ -366,6 +354,11 @@
     </build>
 
     <repositories>
+        <!-- linked-planet -->
+        <repository>
+            <id>linkedplanet</id>
+            <url>https://maven.pkg.github.com/linked-planet/libraries</url>
+        </repository>
         <repository>
             <id>atlassian-public</id>
             <url>https://maven.atlassian.com/repository/public</url>

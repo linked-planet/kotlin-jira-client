@@ -3,10 +3,10 @@ package com.linkedplanet.kotlinjirawrapper
 import arrow.core.Either
 import arrow.core.computations.either
 import com.google.gson.JsonObject
-import com.linkedplanet.kotlinjirawrapper.api.error.DomainError
 import com.linkedplanet.kotlinjirawrapper.api.model.JiraStatus
 import com.linkedplanet.kotlinjirawrapper.api.parseInsightField
 import com.linkedplanet.kotlinjirawrapper.api.resolveConfig
+import com.linkedplanet.kotlinhttpclient.error.DomainError
 
 val projectId: Int = 10000
 val issueTypeId: Int = 10001

@@ -1,10 +1,9 @@
 package com.linkedplanet.kotlinjirawrapper.api.interfaces
 
 import arrow.core.Either
-import com.linkedplanet.kotlinjirawrapper.api.error.DomainError
+import com.linkedplanet.kotlinhttpclient.error.DomainError
 import com.linkedplanet.kotlinjirawrapper.api.model.JiraIssueType
 import com.linkedplanet.kotlinjirawrapper.api.model.JiraIssueTypeAttribute
-import com.linkedplanet.kotlinjirawrapper.api.model.JiraProject
 
 interface IssueTypeOperatorInterface {
 

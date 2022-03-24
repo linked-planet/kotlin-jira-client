@@ -5,12 +5,11 @@ import arrow.core.computations.either
 import com.google.gson.JsonObject
 import com.google.gson.JsonParser
 import com.google.gson.reflect.TypeToken
-import com.linkedplanet.kotlinjirawrapper.api.error.DomainError
-import com.linkedplanet.kotlinjirawrapper.api.http.JiraConfig
+import com.linkedplanet.kotlinhttpclient.error.DomainError
+import com.linkedplanet.kotlinjirawrapper.api.JiraConfig
 import com.linkedplanet.kotlinjirawrapper.api.interfaces.IssueOperatorInterface
 import com.linkedplanet.kotlinjirawrapper.api.model.CreateTicketResponse
 import com.linkedplanet.kotlinjirawrapper.api.model.JiraField
-import com.linkedplanet.kotlinjirawrapper.api.model.JiraIssueTypeAttributesResponse
 
 object IssueOperator : IssueOperatorInterface {
 

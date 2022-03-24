@@ -2,8 +2,7 @@ package com.linkedplanet.kotlinjirawrapper.api.interfaces
 
 import arrow.core.Either
 import com.google.gson.JsonObject
-import com.google.gson.reflect.TypeToken
-import com.linkedplanet.kotlinjirawrapper.api.error.DomainError
+import com.linkedplanet.kotlinhttpclient.error.DomainError
 import com.linkedplanet.kotlinjirawrapper.api.model.CreateTicketResponse
 import com.linkedplanet.kotlinjirawrapper.api.model.JiraField
 

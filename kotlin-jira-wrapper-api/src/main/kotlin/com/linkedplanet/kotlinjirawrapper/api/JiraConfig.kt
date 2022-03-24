@@ -1,4 +1,7 @@
-package com.linkedplanet.kotlinjirawrapper.api.http
+package com.linkedplanet.kotlinjirawrapper.api
+
+import com.linkedplanet.kotlinhttpclient.api.http.BaseHttpClient
+
 
 object JiraConfig {
 
