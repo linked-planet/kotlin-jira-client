@@ -87,3 +87,15 @@ data class CreateTicketResponse(
     val key: String,
     val self: String
 )
+
+data class IssueCommentRequest(
+    val issueKey: String,
+    val content: String
+)
+
+data class IssueComment(
+    val id: String,
+    val content: String,
+    val author: String,
+    val dateTime: String
+)
