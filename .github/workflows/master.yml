@@ -16,9 +16,9 @@ jobs:
           path: |
             ~/.gradle/caches
             ~/.gradle/wrapper
-          key: ${{ runner.os }}-gradle-kotlin-insight-client-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+          key: ${{ runner.os }}-gradle-kotlin-jira-client-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
           restore-keys: |
-            ${{ runner.os }}-gradle-kotlin-insight-client-
+            ${{ runner.os }}-gradle-kotlin-jira-client-
 
       - name: Configure aws ecr credentials
         uses: aws-actions/configure-aws-credentials@v1

@@ -59,8 +59,8 @@ subprojects {
 
                 pom {
                     name.set(artifactId)
-                    description.set("Provides a client for jira-insight rest api calls and object mapping.")
-                    url.set("https://github.com/linked-planet/kotlin-insight-client")
+                    description.set("Provides a client for jira rest api calls and object mapping.")
+                    url.set("https://github.com/linked-planet/kotlin-jira-client")
                     inceptionYear.set("2022")
                     licenses {
                         license {
@@ -92,9 +92,9 @@ subprojects {
                         }
                     }
                     scm {
-                        connection.set("scm:git:git://github.com/linked-planet/kotlin-insight-client.git")
-                        developerConnection.set("scm:git:ssh://github.com/linked-planet/kotlin-insight-client.git")
-                        url.set("https://github.com/linked-planet/kotlin-insight-client")
+                        connection.set("scm:git:git://github.com/linked-planet/kotlin-jira-client.git")
+                        developerConnection.set("scm:git:ssh://github.com/linked-planet/kotlin-jira-client.git")
+                        url.set("https://github.com/linked-planet/kotlin-jira-client")
                     }
                 }
             }
