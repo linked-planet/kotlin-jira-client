@@ -1,6 +1,8 @@
 name: Development (Build & Test)
 on:
   push:
+    branches:
+      - '**'
     tags-ignore:
       - '*.*'
 
