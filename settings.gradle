@@ -5,9 +5,9 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'kotlin-jira-wrapper'
-include 'kotlin-jira-wrapper-api'
-include 'kotlin-jira-wrapper-core'
-include 'kotlin-jira-wrapper-ktor'
-include 'kotlin-jira-wrapper-test-base'
+rootProject.name = 'kotlin-jira-client'
+include 'kotlin-jira-client-api'
+include 'kotlin-jira-client-core'
+include 'kotlin-jira-client-ktor-test'
+include 'kotlin-jira-client-test-base'
 
